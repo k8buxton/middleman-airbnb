@@ -6,27 +6,27 @@
   color: white;
   position: relative;
   padding: 100px 0;
-}
-.card h2{
-  font-size: 15px;
-  position: absolute;
-  top: -10px;
-  left: 10px;
-  font-size: 15px;
-}
-.card h3{
-  font-size: 24px;
-  color: rgb(240, 240, 240);
-  position: absolute;
-  left: 10px;
-  top: 55px;
-}
-.card p{
-  font-size: 14px;
-  color: rgba(240, 240, 240, 0.9);
-  position: absolute;
-  left: 10px;
-  top: 110px;
+  h2{
+    font-size: 15px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    font-size: 15px;
+  }
+  h3{
+    font-size: 24px;
+    color: rgb(240, 240, 240);
+    position: absolute;
+    left: 10px;
+    top: 55px;
+  }
+  p{
+    font-size: 14px;
+    color: rgba(240, 240, 240, 0.9);
+    position: absolute;
+    left: 10px;
+    top: 110px;
+  }
 }
 #home-flats{
   padding: 100px;
@@ -58,3 +58,4 @@ h4 {
 .card-link:hover {
  opacity: 0.1;
 }
+
