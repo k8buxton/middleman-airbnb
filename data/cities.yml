@@ -1,0 +1,15 @@
+paris:
+  city: PARIS, FRANCE
+  listing: Sebastian's home
+  description: Charming room in Montmatre
+  github_username: ssaunier
+tokyo:
+  city: TOKYO, JAPAN
+  listing: Boris' home
+  description: Small flat in Tokyo
+  github_username: Papillard
+london:
+  city: LONDON, UK
+  listing: Romain's home
+  description: Nice flat in Picadilly
+  github_username: monsieurpaillard

@@ -1,0 +1,60 @@
+.card {
+  height: 200px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  padding: 100px 0;
+}
+.card h2{
+  font-size: 15px;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  font-size: 15px;
+}
+.card h3{
+  font-size: 24px;
+  color: rgb(240, 240, 240);
+  position: absolute;
+  left: 10px;
+  top: 55px;
+}
+.card p{
+  font-size: 14px;
+  color: rgba(240, 240, 240, 0.9);
+  position: absolute;
+  left: 10px;
+  top: 110px;
+}
+#home-flats{
+  padding: 100px;
+  background-color: white;
+  width: 100% !important;
+}
+h4 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 50%;
+  width: 40px;
+}
+.card-link {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ width: 100%;
+ z-index: 2;
+ background: black;
+ opacity: 0;
+}
+.card-link:hover {
+ opacity: 0.1;
+}

@@ -1,0 +1,18 @@
+<div class="container about text-center">
+  <p>This template is made with <i class="fa fa-heart"></i> by</p>
+  <div>
+    <ul class="list-inline text-center">
+      <% data.users.each do |user, user_info| %>
+        <li>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user_info.github_nickname}", class: "img-circle" %>
+          <h2><%= user_info.name %></h2>
+          <a href="http://github.com/#{user_info.github_nickname}">
+          <i class="fab fa-github"></i> <%= user_info.github_nickname %>
+          </a>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
+

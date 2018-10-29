@@ -1,4 +1,6 @@
-- name: 'Sébastien Saunier'
-  github_nickname: 'ssaunier'
-- name: 'Boris Paillard'
-  github_nickname: 'Papillard'
+angus:
+  name: 'Angus Watson'
+  github_nickname: 'anguswatson16'
+kate:
+  name: 'Kate Buxton'
+  github_nickname: 'k8buxton'
